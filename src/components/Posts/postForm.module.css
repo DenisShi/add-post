@@ -1,0 +1,51 @@
+.form {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 0 auto;
+  width: 800px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: aliceblue;
+}
+
+.errorMessage {
+  color: red;
+}
+
+.title {
+  padding: 5px;
+  width: 785px;
+  height: 30px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.body {
+  max-width: 800px;
+  height: 100px;
+  margin-top: 30px;
+  resize: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.submitBtn {
+  align-self: center;
+  margin: 20px 20px;
+  width: 200px;
+  height: 50px;
+  color: white;
+  font-size: 24px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(74, 138, 74);
+  opacity: 0.9;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.submitBtn:hover {
+  opacity: 1;
+}
